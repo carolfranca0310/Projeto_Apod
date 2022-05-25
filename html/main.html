@@ -6,9 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APOD: Astronomy</title>
     <link rel="stylesheet" href="../css/main.css">
-    <script src="./javascript/script.js"></script>
+    <script src="/javascript/script.js"></script>
 </head>
 <body>
-    
+    <header>
+        <div class="botaoHome">
+            <button type="button"><a href="../index.html">Home</a></button>
+        </div>
+        <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/caroline-ara%C3%BAjo-de-fran%C3%A7a-a59a14227/"><img src="../imagens/linkedin.png" alt="logotipo do linkedin" width="30px"></a>
+            <a href="https://github.com/carolfranca0310"><img src="../imagens/github.png" alt="logotipo do github" width="35px"></a>
+        </div>
+    </header>
+    <div class="container">
+        <p>Selecione uma data </p>
+        <input type="date" id="dateSearch" min="1995-07-01" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+        <input type="submit" value="enviar" id="botao" class="button">
+    </div>
 </body>
 </html>

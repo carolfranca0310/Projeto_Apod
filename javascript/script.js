@@ -1,5 +1,3 @@
-let button = document.getElementById('button')
-
 function ChamadaAPI(date) {
     let URL = "https://api.nasa.gov/planetary/apod?";
     chave ="Ey7AxDfg7ssx5wm2kcUBrKWSXPnovnkwGxuoKSzV";

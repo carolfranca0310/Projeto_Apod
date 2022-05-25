@@ -1,0 +1,42 @@
+body
+{
+margin: 0px;
+font-family: 'Oswald', sans-serif;
+background-color: rgba(221, 218, 229, 0.559);
+}
+
+header{
+    background-color: #030402 ;
+    color:#d2d600;
+    align-items:center;
+    justify-content: center;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 30vw;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    padding-top: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.botaoHome{
+    padding-left: 10px;
+    padding-top: 1%;
+}
+
+button{
+    outline: none;
+    cursor: pointer;
+}
