@@ -2,7 +2,11 @@ body
 {
 margin: 0px;
 font-family: 'Oswald', sans-serif;
-background-color: rgba(221, 218, 229, 0.559);
+background-image: url(../imagens/fundo.png);
+}
+
+p{
+    color: rgb(0, 0, 0);
 }
 
 header{
@@ -13,10 +17,9 @@ header{
 }
 
 .container{
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     padding-top: 20px;
-    padding-left: 30vw;
 }
 
 .redes-sociais{
